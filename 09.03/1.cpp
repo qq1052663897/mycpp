@@ -7,7 +7,7 @@ void SwapValue(int a, int b)
     b ^= a;
     a ^= b;
 
-    cout << "inside the function of SwapValue, a is :" << a << "\t\t b is : " << b << endl;
+    cout << "inside the function of SwapValue, a is :" << a << " b is : " << b << endl;
 }
 
 void SwapRef(int &a, int &b)
@@ -16,7 +16,7 @@ void SwapRef(int &a, int &b)
     b ^= a;
     a ^= b;
 
-    cout << "inside the function of SwapRef, a is :\t\t" << a << " b is : " << b << endl;
+    cout << "inside the function of SwapRef, a is :" << a << " b is : " << b << endl;
 }
 
 int main()
@@ -28,13 +28,13 @@ int main()
     
     SwapValue(a, b);
 
-    cout << "after that to run the function of SwapValue, a is :\t\t" << a << "\t\t, b is :" << b << endl;
+    cout << "after that to run the function of SwapValue, a is :" << a << ", b is :" << b << endl;
 
     a = 10;
     b = 20;
 
     SwapRef(a, b);
-    cout << "after that to run the function of SwapRef, a is :\t\t" << a << "\t\t, b is :" << b << endl;
+    cout << "after that to run the function of SwapRef, a is :" << a << ", b is :" << b << endl;
     
     return 0;
 }
