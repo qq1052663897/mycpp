@@ -1,5 +1,7 @@
 {
     "files.associations": {
         "ostream": "cpp"
-    }
+    },
+    "fileheader.Author": "Ron",
+    "fileheader.LastModifiedBy": "Ron"
 }
